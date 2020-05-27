@@ -1,0 +1,1949 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+
+    <!-- Подключение стилей слайдера Slick: -->
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css"/>
+
+    <!-- Пользовательские стили проекта -->
+    <link rel="stylesheet" href="assets/css/app_styles.css">
+
+    <title>
+      Примеры работы с Bootstrap
+    </title>
+  </head>
+  <body>
+    <!-- Разметка области с текстом правил марафона -->
+    <div class="marathon-rules-screen">
+      <div class="grid-width-area">
+        <div class="grid-width-area__item column-geometry columns-6-desktop columns-10-tablet columns-12-smartphone">
+          <div class="content-area">
+            <div class="close-area">
+              <button type="button" class="close-area__btn" title="Закрыть"></button>
+            </div>
+            <div class="marathon-rules-area">
+              <h3 class="marathon-rules-area__header">
+                Правила участия в&nbsp;марафоне на&nbsp;портале ВЗнания
+              </h3>
+              <p class="marathon-rules-area__preamble-paragraph">
+                <span class="highlighted-substring">Преамбула.</span> Nunc lacinia, velit at consequat sollicitudin, sapien urna tempor nisl, eget pulvinar mauris nisl eget quam. Quisque nunc turpis, dictum eu justo eu, iaculis rhoncus odio. Aenean elementum eleifend eros eget efficitur. Duis sagittis sem a risus convallis posuere. Nullam nec felis sed velit suscipit lacinia at sit amet tortor. Curabitur porta ipsum a eros tempus feugiat. Duis mollis nulla in nunc dictum, sed rutrum augue congue. Donec placerat tortor velit, eget aliquam ante tincidunt at. Nulla tempor sapien lorem, vel venenatis felis egestas tristique. Nam dignissim purus quis quam gravida, vel volutpat nunc porta. Sed sit amet volutpat justo. Etiam quis ligula luctus, porttitor purus et, blandit dui. Maecenas est mauris, faucibus et ullamcorper a, varius mattis diam. Nunc laoreet dolor et quam vulputate sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dictum dolor et dolor iaculis, quis ultrices risus aliquam.
+              </p>
+              <p class="marathon-rules-area__paragraph">
+                <span class="highlighted-substring">&#0167; 1.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in nunc dictum, laoreet nisl laoreet, gravida eros. Vestibulum lacus dolor, pretium quis ex non, ultricies bibendum urna. Fusce dictum at arcu a commodo. Aenean bibendum dui quis massa lacinia rutrum. Curabitur tellus nibh, ornare eu neque euismod, feugiat lacinia massa. Aenean a ultrices neque. Praesent eu massa sit amet massa scelerisque interdum.
+              </p>
+              <p class="marathon-rules-area__paragraph">
+                <span class="highlighted-substring">&#0167; 2.</span> Duis congue venenatis condimentum. Morbi at enim eu risus venenatis maximus quis et felis. Quisque et fermentum ipsum. Quisque diam lacus, lacinia sed arcu at, egestas condimentum ligula. Ut ac suscipit risus. Phasellus condimentum elit vel pharetra vehicula. Duis imperdiet, ipsum non dapibus ornare, magna arcu consequat dolor, id fringilla ligula dolor vitae ex. Vivamus convallis urna eu augue mattis interdum. Ut nec viverra libero, sit amet ullamcorper augue. Fusce volutpat dictum dolor, in placerat neque placerat id. Phasellus egestas id nibh at tempor.
+              </p>
+              <p class="marathon-rules-area__paragraph">
+                <span class="highlighted-substring">&#0167; 3.</span> Duis a diam sit amet nulla elementum dapibus. Quisque ac est vitae nulla mattis ultricies. Praesent imperdiet sem turpis, in fermentum velit posuere id. Nam in accumsan ipsum, nec tempus nunc. Phasellus ultricies nulla ac elementum faucibus. Mauris nulla velit, laoreet eu augue ac, lacinia eleifend eros. Vestibulum posuere bibendum sapien, eget iaculis sem porta sed.
+              </p>
+              <p class="marathon-rules-area__paragraph">
+                <span class="highlighted-substring">&#0167; 4.</span> Sed vitae ipsum consequat, ultrices eros eu, imperdiet leo. Nam ullamcorper hendrerit vulputate. Donec placerat lacinia facilisis. Mauris a lacus eget dolor faucibus accumsan. Nam ullamcorper, velit sit amet faucibus finibus, nisi justo varius libero, quis rhoncus lorem sem sagittis est. Sed quis pulvinar lorem. Pellentesque porttitor congue commodo. Aliquam et ex non nulla varius posuere. Sed nisi mi, auctor non est a, laoreet posuere lectus. Pellentesque convallis sed mauris vel viverra. Integer rhoncus mattis suscipit. Vivamus laoreet laoreet enim sit amet malesuada. Aliquam vestibulum arcu non risus pellentesque, ut maximus mauris egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+              </p>
+              <p class="marathon-rules-area__paragraph">
+                <span class="highlighted-substring">&#0167; 5.</span> Donec sem erat, bibendum sed laoreet ut, mattis ut ex. Phasellus eu sapien vehicula, varius nisl ut, consequat lorem. Sed vitae tempus neque, non efficitur ligula. Curabitur aliquam porta ullamcorper. Morbi ipsum neque, ornare non vestibulum sed, elementum in erat. Donec elementum nec velit eu dignissim. Pellentesque dapibus nec tellus quis convallis.
+              </p>
+              <p class="marathon-rules-area__paragraph">
+                <span class="highlighted-substring">&#0167; 6.</span> Quisque fringilla molestie lacus, gravida efficitur turpis dapibus quis. Nulla malesuada luctus metus, nec mollis purus aliquam eget. Nulla eget ante justo. Aliquam sodales aliquam cursus. Sed et gravida risus, vitae molestie nulla. Nunc risus turpis, semper vitae massa ut, vulputate condimentum quam. Integer elementum maximus sem, at imperdiet orci commodo ut. Donec leo velit, consectetur maximus accumsan eu, tempus id dui. Praesent faucibus accumsan convallis. In sit amet nunc tellus.
+              </p>
+              <p class="marathon-rules-area__paragraph">
+                <span class="highlighted-substring">&#0167; 7.</span> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nunc ex, faucibus ac ipsum at, blandit scelerisque ex. Maecenas condimentum est eget suscipit mollis. Phasellus ullamcorper nulla ac ante auctor sodales. Fusce vestibulum tortor ullamcorper est varius posuere. Donec laoreet, mi sed aliquet tempus, nulla risus ullamcorper quam, sagittis faucibus orci magna vitae felis. Proin ac enim lobortis augue ultrices rutrum pellentesque non risus. Ut sagittis orci ut ante dictum, at elementum tellus consequat. Curabitur efficitur sem at tempor vulputate. Suspendisse feugiat nisi id nulla imperdiet fermentum. In venenatis, nisi interdum fringilla maximus, massa eros viverra neque, id fringilla metus dolor a eros. In a magna nisl.
+              </p>
+              <p class="marathon-rules-area__paragraph marathon-rules-area__paragraph--last">
+                <span class="highlighted-substring">&#0167; 8.</span> Aliquam id rutrum turpis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Разметка панели навигации -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a href="#" class="navbar-brand">
+        <img src="https://placekitten.com/30/30" width="30" height="30" alt="Место для логотипа" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              Pricing
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link disabled">
+              About us
+            </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- Разметка слайдера -->
+    <div class="container-fluid p-0">
+      <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/img_0.jpg" class="d-block w-100" alt="Изображение слайдера"/>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/img_1.jpg" class="d-block w-100" alt="Изображение слайдера"/>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/img_2.jpg" class="d-block w-100" alt="Изображение слайдера"/>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/img_3.jpg" class="d-block w-100" alt="Изображение слайдера"/>
+          </div>
+        </div>
+        <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">
+            Previous
+          </span>
+        </a>
+        <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <!-- Использование сетки Bootstrap -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <img class="w-100" src="assets/images/youtube_play_button.svg" alt="" />
+            <h3>
+              Заголовок
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <img class="w-100" src="assets/images/youtube_play_button.svg" alt="" />
+            <p>
+              Consectetur adipiscing elit duis tristique sollicitudin nibh. Nullam non nisi est sit amet. Gravida rutrum quisque non tellus.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <img class="w-100" src="assets/images/youtube_play_button.svg" alt="" />
+            <p>
+              Dictum fusce ut placerat orci nulla pellentesque dignissim. Sit amet nisl suscipit adipiscing bibendum est ultricies. Massa vitae tortor condimentum lacinia.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <img class="w-100" src="assets/images/youtube_play_button.svg" alt="" />
+            <p>
+              Sit amet volutpat consequat mauris nunc. Placerat duis ultricies lacus sed turpis tincidunt. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Vestibulum morbi blandit cursus risus at ultrices.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3">
+            <img class="w-100" src="assets/images/youtube_play_button.svg" alt="" />
+            <p>
+              Velit sed ullamcorper morbi tincidunt ornare. Sagittis id consectetur purus ut. Neque vitae tempus quam pellentesque nec. Ut consequat semper viverra nam. Gravida quis blandit turpis cursus in hac. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-lg-3 bg-color">
+            <p>
+              Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Elit ut aliquam purus sit amet luctus venenatis lectus. Elementum nisi quis eleifend quam adipiscing vitae proin. Malesuada proin libero nunc consequat. Scelerisque viverra mauris in aliquam. Lectus urna duis convallis convallis tellus id.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="custom-grid-area">
+      <div class="content-area">
+        <div class="content-area__item column-geometry columns-3-desktop columns-6-tablet columns-12-smartphone">
+          <h3 class="content-header">
+            Заголовок третьего уровня
+          </h3>
+          <h4 class="reference-header">
+            Содержимое первой колонки
+          </h4>
+          <p class="content-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue placerat nibh facilisis maximus. Vivamus sapien enim, consequat quis lobortis in, dictum quis mi. Nullam bibendum, augue et maximus pharetra, dui risus pulvinar odio, ut rhoncus elit ex eu sem. Phasellus lorem enim, accumsan non tempus vitae, efficitur sed felis. Vivamus porttitor cursus dui, in molestie sem placerat vel. Quisque vitae quam at turpis efficitur tempor ut ac tortor. Donec imperdiet elit metus, quis fermentum eros malesuada vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <p class="content-text">
+            Euismod quis viverra nibh cras. A arcu cursus vitae congue mauris rhoncus aenean vel. At risus viverra adipiscing at in tellus integer. Tellus pellentesque eu tincidunt tortor aliquam. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Lobortis elementum nibh tellus molestie nunc non blandit. Scelerisque varius morbi enim nunc faucibus. At elementum eu facilisis sed odio morbi quis commodo odio. Eu lobortis elementum nibh tellus.
+          </p>
+        </div>
+        <div class="content-area__item column-geometry columns-4-desktop columns-6-tablet columns-12-smartphone">
+          <h4 class="reference-header">
+            Содержимое второй колонки
+          </h4>
+          <p class="content-text">
+            Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Risus quis varius quam quisque id. Ac tortor vitae purus faucibus ornare suspendisse sed. A erat nam at lectus urna duis convallis. Sed adipiscing diam donec adipiscing tristique risus nec. Elit eget gravida cum sociis. Senectus et netus et malesuada fames ac turpis egestas integer. Massa massa ultricies mi quis hendrerit. Egestas integer eget aliquet nibh. Vestibulum sed arcu non odio euismod lacinia. In hac habitasse platea dictumst.
+          </p>
+        </div>
+        <div class="content-area__item column-geometry columns-6-desktop columns-6-tablet columns-12-smartphone">
+          <h4 class="reference-header">
+            Содержимое третьей колонки
+          </h4>
+          <p class="content-text">
+            In fermentum et sollicitudin ac. Nunc aliquet bibendum enim facilisis gravida neque. Quam id leo in vitae turpis massa. Urna id volutpat lacus laoreet non. Urna et pharetra pharetra massa massa. Dignissim sodales ut eu sem integer vitae justo. Nec dui nunc mattis enim ut tellus elementum sagittis. Ultrices dui sapien eget mi proin sed. At volutpat diam ut venenatis tellus in metus vulputate. Vulputate ut pharetra sit amet aliquam id diam. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel. Mattis enim ut tellus elementum sagittis vitae et. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum.
+          </p>
+          <div class="images-div">
+            <img src="assets/images/img_4.jpg" width="1920" height="1080" alt="Изображение" />
+          </div>
+        </div>
+        <div class="content-area__item column-geometry columns-6-desktop columns-6-tablet columns-12-smartphone">
+          <p class="content-text">
+            Morbi ultrices sollicitudin elementum. Donec venenatis ut mi eu ornare. Sed tincidunt urna at lacus lobortis semper ac in risus. Maecenas accumsan lacus eu libero elementum ultrices. Nunc ut est nisi. Proin eget erat egestas, laoreet dolor in, aliquam diam. Nulla consequat justo enim. Nunc in pretium orci. In vel metus ut nisl eleifend blandit. Donec at arcu congue, venenatis lorem nec, placerat enim. Ut nec ante vel ipsum pulvinar egestas. Nam ut sollicitudin mi, vel facilisis orci. Donec et aliquet nisi, et placerat nunc. Vestibulum dignissim, ante facilisis cursus egestas, sem arcu lobortis ante, vel volutpat ex nisi ac tortor.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="triangle-area"></div>
+    <div class="two-block">
+      <div class="common-content-area">
+        <div class="common-content-item column-geometry columns-6-desktop columns-3-tablet columns-12-smartphone">
+          <p class="common-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia, massa at auctor lobortis, lacus nulla imperdiet enim, in auctor nulla massa non arcu. Aliquam vitae sem augue. Curabitur finibus augue in eros sodales consequat. Aenean sed tincidunt velit. Aliquam ullamcorper sed mi ut viverra. Cras vel ultrices felis. Quisque aliquam sapien et ante accumsan sagittis. Fusce mollis neque nec lacus porta pretium. Fusce ut orci et nulla varius congue at ac lacus. Mauris feugiat lacinia ex, ac sagittis nibh placerat ut.
+          </p>
+        </div>
+        <div class="common-content-item column-geometry columns-6-desktop columns-4-tablet columns-12-smartphone">
+          <p class="common-paragraph">
+            In blandit interdum aliquet. Vivamus et neque purus. Etiam bibendum pretium risus non lacinia. Quisque sed neque vel ligula vestibulum tempor. Aliquam condimentum elit sed lectus hendrerit, ac malesuada lacus lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer placerat dui turpis, eu congue sapien eleifend vel. Vivamus hendrerit dolor eget augue vestibulum, quis porta nibh egestas. Vestibulum ut mollis leo.
+          </p>
+        </div>
+        <div class="common-content-item column-geometry columns-6-desktop columns-5-tablet columns-12-smartphone">
+          <p class="common-paragraph">
+            Suspendisse dignissim risus at sapien vulputate tincidunt. Quisque eu porttitor nunc. Integer ultricies nisl sit amet nulla sollicitudin eleifend. Nulla sed pharetra tellus. Nulla faucibus eros non erat euismod, ut venenatis ligula congue. Morbi quis dolor pharetra, eleifend orci ac, aliquam tortor. Ut vel urna et sem auctor fringilla in ut metus. Pellentesque turpis tellus, finibus ut magna eu, gravida aliquam felis. Donec ac nisl interdum, porta nibh ut, ultricies magna. Praesent ornare feugiat arcu nec eleifend.
+          </p>
+        </div>
+        <div class="common-content-item column-geometry columns-6-desktop columns-6-tablet columns-12-smartphone">
+          <p class="common-paragraph">
+            Fusce diam nisi, varius vitae arcu nec, luctus rhoncus ante. Etiam luctus id metus ut gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc at sagittis massa. Curabitur eu ex fringilla, malesuada erat tincidunt, posuere ligula. Nam et venenatis lorem. Donec eget nisl felis. Sed eget erat nec nisl suscipit sodales. Mauris mollis, mauris eu porta scelerisque, odio enim vulputate mauris, quis elementum ligula est ac orci. Nulla at leo id ante faucibus eleifend ac at lacus. Donec quis lectus vehicula, pulvinar ipsum vehicula, congue risus. Vestibulum tincidunt orci quis turpis dapibus ullamcorper quis quis nulla. Sed pellentesque odio metus, ut ullamcorper nibh auctor et. Vivamus eleifend nec lacus nec ultricies. Nam vel felis lorem.
+          </p>
+        </div>
+        <div class="common-content-item column-geometry columns-12-desktop columns-6-tablet columns-12-smartphone">
+          <p class="common-paragraph">
+            Cras dictum pharetra magna in mattis. Sed gravida eros id justo commodo maximus. Phasellus eros elit, imperdiet ac dolor eget, laoreet malesuada lorem. Mauris feugiat, augue at scelerisque ullamcorper, ante arcu tempor turpis, in posuere nulla est a purus. Aenean ac augue tristique, porta quam sed, hendrerit tortor. Donec posuere sollicitudin neque at sodales. Suspendisse interdum felis eu elit consequat ornare. Integer eu arcu lacus. Duis ac placerat ipsum. Integer feugiat ipsum eget odio auctor, at sagittis dui maximus. Quisque gravida vitae nunc sed luctus. Praesent ut purus congue, finibus libero vitae, aliquam nulla. Praesent in feugiat purus. In dictum tincidunt felis sed sagittis. Aliquam at sapien congue, egestas turpis nec, condimentum nibh.
+          </p>
+          <div class="img-area">
+            <img src="assets/images/img_5.jpg" width="1920" height="1080" alt="Изображение" />
+          </div>
+        </div>
+        <div class="common-content-item column-geometry columns-12-desktop columns-6-tablet columns-12-smartphone">
+          <p class="common-paragraph">
+            Phasellus laoreet nibh at augue pellentesque accumsan sit amet et turpis. Maecenas et leo in purus varius volutpat. Etiam malesuada diam ut neque pellentesque, sed efficitur neque auctor. In dapibus non mauris ut venenatis. Vivamus commodo eget tortor eu commodo. Ut turpis erat, aliquet id nisl imperdiet, pellentesque convallis ligula. Nulla diam diam, imperdiet sit amet felis vel, vehicula mattis ligula. Praesent eget ipsum feugiat, condimentum lectus eget, tempus nisi. Ut scelerisque commodo quam quis efficitur.
+          </p>
+        </div>
+        <div class="common-content-item column-geometry columns-12-desktop columns-12-tablet columns-12-smartphone">
+          <p class="common-paragraph">
+            Donec feugiat orci at nunc vestibulum, vel ultricies odio viverra. Nullam a velit risus. Donec sollicitudin neque et sapien tempor, a mattis quam gravida. Quisque mollis dolor eu commodo pharetra. Praesent at est convallis, pretium ante vel, dictum eros. Nulla id tellus consequat, interdum massa a, rhoncus eros. Maecenas mattis, magna ut posuere egestas, nisi mauris dignissim ligula, quis mollis lorem erat id felis. Sed cursus justo non ipsum consectetur aliquam. Morbi felis mi, iaculis et quam vitae, congue euismod felis. Pellentesque commodo hendrerit nunc, ac pulvinar urna varius et. Curabitur euismod eros feugiat nisi ultricies, a vehicula neque tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare leo neque, ut dapibus mauris maximus sit amet.
+          </p>
+          <p class="common-paragraph">
+            Phasellus laoreet nibh at augue pellentesque accumsan sit amet et turpis. Maecenas et leo in purus varius volutpat. Etiam malesuada diam ut neque pellentesque, sed efficitur neque auctor. In dapibus non mauris ut venenatis. Vivamus commodo eget tortor eu commodo. Ut turpis erat, aliquet id nisl imperdiet, pellentesque convallis ligula. Nulla diam diam, imperdiet sit amet felis vel, vehicula mattis ligula.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="third-block">
+      <div class="third-content-area">
+        <div class="third-content-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+          <p class="placeholder-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend blandit varius. Donec id semper sem, eleifend molestie ex. Vivamus euismod erat nisl, ac iaculis quam euismod ut. Nam nec tincidunt metus, non tincidunt eros. Pellentesque ullamcorper semper accumsan. Ut vulputate semper consequat. Donec quis mollis velit. Suspendisse posuere lobortis ex sed rhoncus. Praesent euismod, quam eget feugiat lacinia, mauris est cursus orci, sit amet sagittis tellus arcu sit amet turpis.
+          </p>
+        </div>
+        <div class="third-content-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+          <p class="placeholder-paragraph">
+            Aliquam erat volutpat. Cras ac orci lacus. Pellentesque posuere venenatis libero et blandit. Mauris non dolor ut eros ultrices venenatis. Vestibulum interdum nulla nibh. In porta tellus quam, a ultricies quam faucibus eget. Morbi maximus auctor justo, nec sodales dui tincidunt eget. Quisque id risus venenatis, ultrices libero et, pretium mi. Mauris euismod risus eget velit gravida euismod. Cras eget velit at nunc tristique rhoncus. Praesent non lacus eu elit tempor volutpat at sed turpis. Vivamus vestibulum blandit suscipit. Nullam cursus eros ut porta ultricies. Aliquam at felis at dolor bibendum eleifend.
+          </p>
+        </div>
+        <div class="third-content-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+          <p class="placeholder-paragraph">
+            Nulla facilisi. Vestibulum lacinia ullamcorper posuere. Integer ut finibus nunc, quis varius massa. Ut ultrices, odio ut dictum pharetra, sem diam elementum lectus, id luctus massa nunc ac erat. Praesent laoreet eleifend turpis ac fringilla. Ut faucibus viverra purus nec interdum. Suspendisse ultricies mauris a nunc malesuada rhoncus. Vivamus nisl ante, egestas sed augue id, commodo sollicitudin massa. Sed blandit dolor porttitor pretium lobortis. Quisque iaculis faucibus tortor, porttitor ultricies velit.
+          </p>
+        </div>
+        <div class="third-content-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+          <div class="simple-card">
+            <p class="placeholder-paragraph">
+              Phasellus non placerat eros, eu hendrerit ex. Vivamus tellus massa, ultrices a congue ac, pulvinar vitae lorem. Sed consequat velit sem, non fringilla quam placerat non. Suspendisse et ultricies magna. Donec efficitur posuere nunc pretium feugiat. Vivamus efficitur dolor sed sem aliquam, eu maximus nisi placerat. Donec eget erat lacus. Nam odio augue, laoreet sed consectetur tempus, lobortis vitae elit. Vivamus egestas tellus eros, vitae rhoncus nunc scelerisque quis. In varius arcu dictum, ullamcorper urna vitae, blandit metus. Proin iaculis ex ac vulputate pellentesque. Nullam eu euismod ligula. Suspendisse tincidunt velit sit amet arcu venenatis dignissim.
+            </p>
+            <p class="placeholder-paragraph placeholder-paragraph__swiss-text-indent">
+              Morbi placerat, mauris ac rutrum fermentum, erat sem faucibus mi, euismod dictum lorem odio sit amet diam. Cras pulvinar tellus eu blandit interdum. Sed ornare lorem orci, in venenatis dolor pretium ut. Sed fringilla finibus lacus et congue. Fusce vitae sapien tortor. Nulla egestas dolor felis, vel aliquet turpis maximus in. Sed nec dolor ipsum. Cras hendrerit velit velit, sed eleifend eros egestas et. In quis ullamcorper purus. Maecenas risus velit, scelerisque vel suscipit ut, fringilla consequat neque. Maecenas cursus dolor ac eros sagittis consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="third-content-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+          <figure class="drawing-example">
+            <img src="assets/images/calligraph_drawing.svg" width="120" height="120" alt="Образец каллиграфического контура" />
+            <figcaption class="description-string">
+              Образец каллиграфического контура
+            </figcaption>
+          </figure>
+          <p class="placeholder-paragraph">
+            Vivamus vehicula laoreet elit, a finibus eros varius ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pellentesque purus nunc. Proin egestas porttitor erat, non molestie libero dignissim ac. Nullam commodo metus mattis ultricies condimentum. Duis eros dolor, egestas id congue quis, mattis sed purus. Phasellus gravida blandit leo, ut fermentum dui sagittis sollicitudin. Suspendisse rutrum orci quis ullamcorper luctus. Donec sed turpis est. Suspendisse elementum libero mollis dolor dictum, sit amet scelerisque eros luctus. Donec elementum ullamcorper posuere. Cras finibus efficitur augue vitae scelerisque.
+          </p>
+        </div>
+        <div class="third-content-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+          <div class="simple-card">
+            <p class="placeholder-paragraph">
+              Pellentesque sodales tincidunt lacus quis convallis. Vestibulum dolor leo, vehicula non mauris quis, porttitor pharetra justo. Vestibulum ultricies nisl ante, et viverra libero ullamcorper ac. Sed tempus iaculis libero nec tincidunt. Nam accumsan a nulla tincidunt condimentum. In a nisi cursus, convallis orci vel, consectetur nunc. Nam aliquet elit a urna luctus, ut gravida elit dignissim. Sed sit amet malesuada mauris. Etiam hendrerit eros dignissim feugiat sodales. Suspendisse ligula lorem, convallis eu quam eu, cursus ultricies nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam ac nunc non massa ullamcorper condimentum nec in lorem. In ipsum neque, mollis nec hendrerit vel, bibendum quis justo.
+            </p>
+            <hr class="simple-ruler" />
+            <div class="little-nav-area">
+              <div class="little-nav-area__item">
+                <a href="pages/page_1.html" class="little-nav-area__href" title="Перейти на страницу 1">
+                  Перейти
+                </a>
+              </div>
+              <div class="little-nav-area__item">
+                <a href="#top" class="little-nav-area__href" title="Перейти наверх">
+                  Наверх
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Разметка блока „Рейтинг“ -->
+    <div class="rating-block">
+      <div class="top-shape-area"></div>
+      <div class="rectangle-area">
+        <div class="left-group-area">
+          <div class="decoration-area"></div>
+          <div class="stamp-area">
+            <div class="stamp-area__graphics"></div>
+            <div class="stamp-area__info">
+              <h3 class="header-string">
+                Рейтинг
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="notice-area">
+          <div class="notice-area__graphics">
+            i
+          </div>
+          <div class="notice-area__info">
+            Обновляется в режиме реального&nbsp;времени, обнуляется по итогам сезона
+          </div>
+        </div>
+        <div class="content-area">
+          <!-- Группа кнопок выбора категории участников: -->
+          <div class="show-group-area">
+            <div class="show-group-area__item column-geometry column-geometry-10 column-geometry-5 columns-6-desktop columns-6-tablet columns-6-smartphone">
+              <button type="button" class="show-group-btn" title="Показать список десяти первых учителей">
+                <span class="show-group-btn__label">
+                  Топ&#0150;10 учителей
+                </span>
+                <span class="show-group-btn__quantity">
+                  Участвует 3521
+                </span>
+                <div class="narrow-arrow-down"></div>
+              </button>
+            </div>
+            <div class="show-group-area__item column-geometry column-geometry-10 column-geometry-5 columns-6-desktop columns-6-tablet columns-6-smartphone">
+              <button type="button" class="show-group-btn" title="Показать список тридцати первых учеников">
+                <span class="show-group-btn__label">
+                  Топ&#0150;30 учеников
+                </span>
+                <span class="show-group-btn__quantity">
+                  Участвует 3521
+                </span>
+                <div class="narrow-arrow-down"></div>
+              </button>
+            </div>
+          </div>
+          <!-- Заголовки колонок для групп участников (на экранах настольных компьютеров): -->
+          <div class="column-names-area column-names-area--teachers">
+            <div class="column-names-area__item column-names-area--teachers__item column-geometry column-geometry-10 columns-3-desktop">
+              Город
+            </div>
+            <div class="column-names-area__item column-names-area--teachers__item column-geometry column-geometry-10 columns-3-desktop">
+              Школа
+            </div>
+            <div class="column-names-area__item column-names-area--teachers__item column-geometry column-geometry-10 columns-3-desktop">
+              Количество<br />учеников
+            </div>
+            <div class="column-names-area__item column-names-area--teachers__item column-geometry column-geometry-10 columns-3-desktop">
+              Количество&nbsp;выученных учениками&nbsp;слов
+            </div>
+          </div>
+          <div class="column-names-area column-names-area--pupils hidden">
+            <div class="column-names-area__item column-names-area--pupils__item column-geometry column-geometry-10 columns-4-desktop">
+              Город
+            </div>
+            <div class="column-names-area__item column-names-area--pupils__item column-geometry column-geometry-10 columns-4-desktop">
+              Школа
+            </div>
+            <div class="column-names-area__item column-names-area--pupils__item column-geometry column-geometry-10 columns-4-desktop">
+              Количество выученных&nbsp;слов
+            </div>
+          </div>
+          <!-- Область кнопок вертикальной прокрутки: -->
+          <div class="vertical-scroll-area">
+            <div class="vertical-scroll-area__item">
+              <button type="button" class="vertical-scroll-btn" title="Прокручивать обратно">
+                2
+              </button>
+            </div>
+            <div class="vertical-scroll-area__item">
+              <button type="button" class="vertical-scroll-btn" title="Прокручивать обратно">
+                2
+              </button>
+            </div>
+            <div class="vertical-scroll-area__item">
+              <button type="button" class="vertical-scroll-btn" title="Прокручивать вперед">
+                2
+              </button>
+            </div>
+          </div>
+          <!-- Область вывода персоналий по группам участников: -->
+          <div class="frame-area">
+            <div class="main-data-area main-data-area--teachers">
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  1
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  2
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  3
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  4
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  5
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  6
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  7
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  8
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  9
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--teachers">
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  10
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-11-smartphone">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-5-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-4-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="pupils-quantity pupils-quantity--desktop">
+                    60
+                  </span>
+                  <span class="pupils-quantity pupils-quantity--tablet">
+                    60&nbsp;учеников
+                  </span>
+                </div>
+                <div class="main-data-string__item main-data-string--teachers__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-4-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="main-data-area main-data-area--pupils hidden">
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  1
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  2
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  3
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  4
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  5
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  6
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  7
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  8
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  9
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  10
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  11
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  12
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  13
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  14
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  15
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  16
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  17
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  18
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  19
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  20
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  21
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  22
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  23
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  24
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  25
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  26
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  27
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  28
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  29
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+              <div class="main-data-string main-data-string--pupils">
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-1-tablet columns-2-smartphone">
+                  30
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-4-desktop columns-5-tablet columns-11-smartphone">
+                  Фамилия Имя
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Комсомольск-на-Амуре
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-3-desktop columns-6-tablet columns-12-smartphone">
+                  Спецшкола №&nbsp;12345
+                </div>
+                <div class="main-data-string__item main-data-string--pupils__item column-geometry column-geometry-10 column-geometry-0 columns-1-desktop columns-6-tablet columns-12-smartphone">
+                  <span class="words-quantity words-quantity--desktop">
+                    10000
+                  </span>
+                  <span class="words-quantity words-quantity--tablet">
+                    10000 выученных слов
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Разметка блока „Победители“ -->
+    <div class="winners-block">
+      <div class="block-shape-area"></div>
+      <div class="rectangle-block-area">
+        <div class="stamp-area">
+          <div class="stamp-area__graphics"></div>
+          <div class="stamp-area__info">
+            <h3 class="stamp-area__header">
+              Победители
+            </h3>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="period-selecting-area">
+            <div class="period-selecting-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+              <form method="POST" action="" class="period-selecting-form">
+                <select class="period-selecting-form__select" title="Выбрать вариант">
+                  <option value="" selected data-skip="1">
+                    Итоги месяца
+                  </option>
+                  <optgroup label="2019">
+                    <option value="" data-html-text="Ноябрь">
+                      Ноябрь
+                    </option>
+                    <option value="" data-html-text="Декабрь">
+                      Декабрь
+                    </option>
+                  </optgroup>
+                  <optgroup label="2020">
+                    <option value="1-1" data-html-text="Январь">
+                      Январь
+                    </option>
+                    <option value="" data-html-text="Февраль">
+                      Февраль
+                    </option>
+                    <option value="" data-html-text="Март">
+                      Март
+                    </option>
+                    <option value="" data-html-text="Апрель">
+                      Апрель
+                    </option>
+                    <option value="" data-html-text="Май">
+                      Май
+                    </option>
+                    <option value="" data-html-text="Июнь">
+                      Июнь
+                    </option>
+                    <option value="" data-html-text="Июль">
+                      Июль
+                    </option>
+                    <option value="" data-html-text="Август">
+                      Август
+                    </option>
+                    <option value="" data-html-text="Сентябрь">
+                      Сентябрь
+                    </option>
+                    <option value="" data-html-text="Октябрь">
+                      Октябрь
+                    </option>
+                    <option value="" data-html-text="Ноябрь">
+                      Ноябрь
+                    </option>
+                    <option value="" data-html-text="Декабрь">
+                      Декабрь
+                    </option>
+                  </optgroup>
+                  <optgroup label="2021">
+                    <option value="" data-html-text="Январь">
+                      Январь
+                    </option>
+                    <option value="" data-html-text="Февраль">
+                      Февраль
+                    </option>
+                  </optgroup>
+                </select>
+              </form>
+            </div>
+            <div class="period-selecting-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+              <form method="POST" action="" class="period-selecting-form">
+                <select class="period-selecting-form__select" title="Выбрать вариант">
+                  <option data-skip="2">
+                    Итоги сезона
+                  </option>
+                  <option data-html-text="Осень 2019 года">
+                    Осень 2019 года
+                  </option>
+                  <option data-html-text="Зима 2019 &#0150; 2020 годов">
+                    Зима 2019 &#0150; 2020 годов
+                  </option>
+                  <option data-html-text="Весна 2020 года">
+                    Весна 2020 года
+                  </option>
+                  <option data-html-text="Лето 2020 года">
+                    Лето 2020 года
+                  </option>
+                  <option data-html-text="Осень 2020 года">
+                    Осень 2020 года
+                  </option>
+                  <option data-html-text="Зима 2020 &#0150; 2021 годов">
+                    Зима 2020 &#0150; 2021 годов
+                  </option>
+                </select>
+              </form>
+            </div>
+            <div class="period-selecting-area__item column-geometry columns-4-desktop columns-4-tablet columns-12-smartphone">
+              <form method="POST" action="" class="period-selecting-form">
+                <select class="period-selecting-form__select" title="Выбрать вариант">
+                  <option data-skip="1">
+                    Итоги года
+                  </option>
+                  <option data-html-text="2019 год">
+                    2019 год
+                  </option>
+                  <option data-html-text="2020 год">
+                    2020 год
+                  </option>
+                  <option data-html-text="2021 год">
+                    2021 год
+                  </option>
+                </select>
+              </form>
+            </div>
+          </div>
+          <div class="management-area">
+            <div class="management-area__item column-geometry column-geometry-5 columns-6-tablet columns-6-smartphone">
+              <button type="button" class="open-section-btn open-section-btn--active" title="Список учителей за рассматриваемый период">
+                Учителя
+              </button>
+            </div>
+            <div class="management-area__item column-geometry column-geometry-5 columns-6-tablet columns-6-smartphone">
+              <button type="button" class="open-section-btn" title="Список учеников за рассматриваемый период">
+                Ученики
+              </button>
+            </div>
+          </div>
+          <div class="participant-area">
+            <div class="participant-area__item column-geometry columns-5-desktop columns-8-tablet columns-12-smartphone">
+              <h3 class="header-string">
+                Учителя
+              </h3>
+              <div class="grand-card-area">
+                <div class="grand-card-sample">
+                  <div class="grand-card-sample__graphics-area"></div>
+                  <div class="grand-card-sample__info-area">
+                    <div class="place-string place-string--first-place">
+                      1-е место
+                    </div>
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="grand-card-sample">
+                  <div class="grand-card-sample__graphics-area"></div>
+                  <div class="grand-card-sample__info-area">
+                    <div class="place-string place-string--second-place">
+                      2-е место
+                    </div>
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="grand-card-sample">
+                  <div class="grand-card-sample__graphics-area"></div>
+                  <div class="grand-card-sample__info-area">
+                    <div class="place-string place-string--third-place">
+                      3-е место
+                    </div>
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="participant-area__item column-geometry columns-1-desktop">
+              <div class="vertical-divider"></div>
+            </div>
+            <div class="participant-area__item column-geometry columns-6-desktop columns-8-tablet columns-12-smartphone hidden">
+              <h3 class="header-string">
+                Ученики
+              </h3>
+              <div class="small-card-area">
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+                <div class="small-card-item">
+                  <div class="small-card-item__graphics-area"></div>
+                  <div class="small-card-item__info-area">
+                    <div class="person-string">
+                      Фамилия Имя Отчество
+                    </div>
+                    <div class="origin-place-string">
+                      Спецшкола №&nbsp;12345 г.&nbsp;Москва
+                    </div>
+                    <div class="words-quantity-string">
+                      12456 выученных слов
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-list-area">
+            <div class="full-list-area__item column-geometry columns-5-desktop columns-9-tablet columns-12-smartphone">
+              <button type="button" title="Развернуть полностью" class="full-list-area__btn">
+                <span class="btn-label-simple">
+                  Посмотреть полный список
+                </span>
+                <span class="btn-label-smartphones">
+                  Полный список
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Разметка блока „Ход марафона“ -->
+    <div class="four-block">
+      <div class="stamp-area">
+        <div class="stamp-area__graphics"></div>
+        <div class="stamp-area__info">
+          <h3 class="stamp-area__header">
+            Ход марафона
+          </h3>
+        </div>
+      </div>
+      <div class="wave-decoration-area"></div>
+      <div class="fourth-content-area">
+        <div class="fourth-content-area__item columns-10-desktop columns-9-tablet columns-12-smartphone">
+          <div class="carousel-example">
+            <div class="slider-frame">
+              <div class="player-screen">
+                <button type="button" class="play-btn" title="Cмотреть"></button>
+              </div>
+              <div class="frame-info-area">
+                <h4 class="frame-info-area__header month-winner-color">
+                  Ученик месяца (ноябрь 2019)
+                </h4>
+                <div class="frame-info-area__name-string">
+                  Фамилия Имя
+                </div>
+                <div class="frame-info-area__place-string">
+                  Санкт-Петербург <span class="info-divider">|</span> Спецшкола №12345
+                </div>
+                <div class="frame-info-area__quantity-string">
+                  12 456 выученных слов
+                </div>
+              </div>
+            </div>
+            <div class="slider-frame">
+              <div class="player-screen">
+                <button type="button" class="play-btn" title="Cмотреть"></button>
+              </div>
+              <div class="frame-info-area">
+                <h4 class="frame-info-area__header month-winner-color">
+                  Учитель месяца (ноябрь 2019)
+                </h4>
+                <div class="frame-info-area__name-string">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="frame-info-area__place-string">
+                  Санкт-Петербург <span class="info-divider">|</span> Спецшкола №12345 <span class="info-divider">|</span> 120 учеников
+                </div>
+                <div class="frame-info-area__quantity-string">
+                  12 456 выученных учениками слов
+                </div>
+              </div>
+            </div>
+            <div class="slider-frame">
+              <div class="player-screen">
+                <button type="button" class="play-btn" title="Cмотреть"></button>
+              </div>
+              <div class="frame-info-area">
+                <h4 class="frame-info-area__header season-winner-color">
+                  Ученик сезона &#0132;Осень 2019&#0147;
+                </h4>
+                <div class="frame-info-area__name-string">
+                  Фамилия Имя
+                </div>
+                <div class="frame-info-area__place-string">
+                  Санкт-Петербург <span class="info-divider">|</span> Спецшкола №12345
+                </div>
+                <div class="frame-info-area__quantity-string">
+                  12 456 выученных слов
+                </div>
+              </div>
+            </div>
+            <div class="slider-frame">
+              <div class="player-screen">
+                <button type="button" class="play-btn" title="Cмотреть"></button>
+              </div>
+              <div class="frame-info-area">
+                <h4 class="frame-info-area__header season-winner-color">
+                  Учитель сезона &#0132;Осень 2019&#0147;
+                </h4>
+                <div class="frame-info-area__name-string">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="frame-info-area__place-string">
+                  Санкт-Петербург <span class="info-divider">|</span> Спецшкола №12345 <span class="info-divider">|</span> 120 учеников
+                </div>
+                <div class="frame-info-area__quantity-string">
+                  12 456 выученных учениками слов
+                </div>
+              </div>
+            </div>
+            <div class="slider-frame">
+              <div class="player-screen">
+                <button type="button" class="play-btn" title="Cмотреть"></button>
+              </div>
+              <div class="frame-info-area">
+                <h4 class="frame-info-area__header year-winner-color">
+                  Ученик года (2019 год)
+                </h4>
+                <div class="frame-info-area__name-string">
+                  Фамилия Имя
+                </div>
+                <div class="frame-info-area__place-string">
+                  Санкт-Петербург <span class="info-divider">|</span> Спецшкола №12345
+                </div>
+                <div class="frame-info-area__quantity-string">
+                  12 456 выученных слов
+                </div>
+              </div>
+            </div>
+            <div class="slider-frame">
+              <div class="player-screen">
+                <button type="button" class="play-btn" title="Cмотреть"></button>
+              </div>
+              <div class="frame-info-area">
+                <h4 class="frame-info-area__header year-winner-color">
+                  Учитель года (2019 год)
+                </h4>
+                <div class="frame-info-area__name-string">
+                  Фамилия Имя Отчество
+                </div>
+                <div class="frame-info-area__place-string">
+                  Санкт-Петербург <span class="info-divider">|</span> Спецшкола №12345 <span class="info-divider">|</span> 120 учеников
+                </div>
+                <div class="frame-info-area__quantity-string">
+                  12 456 выученных учениками слов
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Разметка блока „Связаться с нами“ -->
+    <div class="footer-block">
+      <div class="top-shape-area"></div>
+      <div class="rectangle-area">
+        <div class="stamp-area">
+          <div class="stamp-area__graphics"></div>
+          <div class="stamp-area__info">
+            <h3 class="stamp-area__header">
+              Следите за нами
+            </h3>
+          </div>
+        </div>
+        <div class="to-top-area">
+          <a href="#top" class="to-top-area__anchor" title="Вернуться наверх"></a>
+        </div>
+        <div class="content-area">
+          <div class="content-area__item column-geometry column-geometry-8 columns-2-desktop columns-3-tablet columns-4-smartphone">
+            <a href="https://www.instagram.com/?hl=ru" class="reference reference--instagram" title="instagram"></a>
+          </div>
+          <div class="content-area__item column-geometry column-geometry-8 columns-2-desktop columns-3-tablet columns-4-smartphone">
+            <a href="https://vk.com/" class="reference reference--vk" title="ВКонтакте"></a>
+          </div>
+          <div class="content-area__item column-geometry column-geometry-8 columns-2-desktop columns-3-tablet columns-4-smartphone">
+            <a href="https://ru-ru.facebook.com/" class="reference reference--facebook" title="facebook"></a>
+          </div>
+          <div class="content-area__item column-geometry column-geometry-8 columns-2-desktop columns-3-tablet columns-4-smartphone">
+            <a href="https://tlgrm.ru/" class="reference reference--telegram" title="telegram"></a>
+          </div>
+          <div class="content-area__item column-geometry column-geometry-8 columns-2-desktop columns-3-tablet columns-4-smartphone">
+            <a href="https://www.youtube.com/?gl=RU" class="reference reference--youtube" title="youtube"></a>
+          </div>
+          <div class="content-area__item column-geometry column-geometry-8 columns-12-desktop columns-12-smartphone">
+            <div class="user-agreement">
+              <div class="header-area">
+                <h3 class="header-string">
+                  Пользовательское соглашение
+                </h3>
+              </div>
+              <div class="btn-area">
+                <button type="button" class="btn" title="Ознакомиться с правилами марафона">
+                  Правила марафона
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-string">
+          &#0169; 2018 &#0150; 2020 vznaniya.ru
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery/jquery-3.4.1.min.js"></script>
+    <script src="assets/popper/dist/umd/popper.min.js"></script>
+    <script src="assets/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+    <!-- Подключение скриптов слайдера Slick: -->
+    <script type="text/javascript" src="assets/slick-1.8.1/slick/slick.min.js"></script>
+
+    <!-- Файл пользовательских скриптов: -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
