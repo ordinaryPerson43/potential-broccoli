@@ -1,0 +1,24 @@
+@charset 'utf-8';
+/*
+  Объединенный файл пользовательских стилей проекта:
+*/
+@import 'components/custom_fonts';
+@import 'components/rem-calc_function';
+@import 'components/common_styles';
+@import 'components/grid_construction_styles';
+@import 'components/part_1';
+@import 'components/grid_modelling_styles_desktop';
+@import 'components/grid_modelling_styles_tablet';
+@import 'components/grid_modelling_styles_smartphone';
+@import 'components/rating_block_styles_desktop';
+@import 'components/rating_block_styles_tablet';
+@import 'components/rating_block_styles_smartphone';
+@import 'components/winners_block_styles_desktop';
+@import 'components/winners_block_styles_tablet';
+@import 'components/winners_block_styles_smartphone';
+@import 'components/marathon_rules_screen_styles';
+@import 'components/marathon_rules_screen_styles_tablet';
+@import 'components/marathon_rules_screen_styles_smartphone';
+@import 'components/footer_block_styles_desktop';
+@import 'components/footer_block_styles_tablet';
+@import 'components/footer_block_styles_smartphone';

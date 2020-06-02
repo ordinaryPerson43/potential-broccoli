@@ -40,6 +40,10 @@
     ]
   });
 
+  /*
+    ------------------------------
+  */
+
   // Описание способа закрытия окна с текстом правил марафона:
   let $screen = $('body > .marathon-rules-screen'),
   $closeButton = $('.marathon-rules-screen .close-area__btn'),
@@ -57,6 +61,10 @@
   $closeButton.on('click', function() {
     $screen.removeClass('appear-elmt');
   });
+
+  /*
+    ------------------------------
+  */
 
   // Пользовательское поведение элементов select в формах выбора отчетного периода:
   let select = [
@@ -152,46 +160,122 @@
     });
   }
 
-  // Обработка кнопки Посмотреть/Скрыть полный список:
+  /*
+    ------------------------------
+  */
 
-  let $listButton = $('.winners-block .content-area .full-list-area .full-list-area__btn'),
-  $smartphonesLabel = $('.full-list-area__btn .btn-label-smartphones'),
-  $writtenLabel = $('.full-list-area__btn .abc--def');
+  /*
+    Вывод на экран списков победителей по группам участников (для экранов смартфонов и планшетных компьютеров):
+  */
+  let $openSectionBtn, $participantAreaItem, $participantGroup;
+
+  $openSectionBtn = $('.management-area .open-section-btn'),
+  openSectionBtnTxt = $openSectionBtn.text(),
+  $participantAreaItem = $('.participant-area .participant-area__item'),
+  $participantGroup = $participantAreaItem
+  .not(':nth-of-type(2)');
+
+  $openSectionBtn
+  .on('click', function(event) {
+    $this = $(this);
+    if (!$this.hasClass('open-section-btn--active') && event.target) {
+      $openSectionBtn.removeClass('open-section-btn--active');
+      $this.addClass('open-section-btn--active');
+    } else {
+      return false;
+    }
+    $participantGroup
+    .eq(0)
+    .toggleClass('hidden');
+    $participantGroup
+    .eq(1)
+    .toggleClass('on-screen-output');
+  });
+
+  /*
+    Обработка кнопки Посмотреть/Скрыть полный список:
+  */
+  let $listButton, $listButtonLabel;
+
+  $listButton = $('.winners-block .content-area .full-list-area .full-list-area__btn');
+  $listButtonLabel = $listButton
+  .children(':visible');
 
   $listButton.on('click', function(event) {
     let $this = $(this);
-    console.log(event.currentTarget);
-    console.log(event.target);
-
-    if (window.matchMedia('(min-width: 320px)').matches && window.matchMedia('(max-width: 759px)').matches) {
-      $this.children().remove();
+    
+    /*
+      Изменение надписи на кнопке при щелчке по ней в зависимости от ширины экрана:
+    */
+    if (window.matchMedia('only screen and (min-width: 320px)').matches && window.matchMedia('only screen and (max-width: 759px)').matches && event.target) {
       if (!$this.hasClass('full-list-area__btn--hide-full-list')) {
         $this
         .addClass('full-list-area__btn--hide-full-list')
-        .append('<span class="btn-label-smartphones--hide-full-list">Сократить список</span>')
-        .attr('title', 'Скрыть полный список');
+        .attr('title', 'Частично скрыть полный список');
+        $listButtonLabel
+        .text('Скрыть частично');
       } else {
         $this
-        .append('<span class="btn-label-smartphones">Полный список</span>')
-        .attr('title', 'Показать полный список')
-        .removeClass('full-list-area__btn--hide-full-list');
+        .removeClass('full-list-area__btn--hide-full-list')
+        .attr('title', 'Развернуть полностью');
+        $listButtonLabel
+        .text('Полный список');
       }
     } else {
       if (!$this.hasClass('full-list-area__btn--hide-full-list')) {
         $this
         .addClass('full-list-area__btn--hide-full-list')
-        .text('Скрыть полный список')
         .attr('title', 'Скрыть полный список');
+        $listButtonLabel
+        .text('Скрыть полный список');
       } else {
         $this
-        .text('Посмотреть полный список')
-        .attr('title', 'Показать полный список')
-        .removeClass('full-list-area__btn--hide-full-list');
+        .removeClass('full-list-area__btn--hide-full-list')
+        .attr('title', 'Показать полный список');
+        $listButtonLabel
+        .text('Посмотреть полный список');
+      }
+    }
+
+    /*
+      Раскрытие полного списка победителей по группам участников:
+    */
+    let wholeVisibleFrameHeight = 0,
+    $visibleFrame = $participantGroup.filter(':visible');
+
+    if (window.matchMedia('only screen and (min-width: 320px)').matches && window.matchMedia('only screen and (max-width: 1365px)').matches) {
+      $visibleFrame.scrollTop(3250);
+      wholeVisibleFrameHeight = $visibleFrame.scrollTop() + $visibleFrame.outerHeight(false);
+      $visibleFrame.height(wholeVisibleFrameHeight);
+      $visibleFrame.scrollTop(0);
+      if (!$listButton.hasClass('full-list-area__btn--hide-full-list')) {
+        $visibleFrame.removeAttr('style');
+        $participantGroup
+        .filter(':hidden')
+        .removeAttr('style');
+      }
+    } else {
+      $participantAreaItem
+      .scrollTop(748)
+      .each(function() {
+        let $this = $(this);
+        wholeVisibleFrameHeight = $participantAreaItem.eq(1).scrollTop() + $participantAreaItem.eq(1).outerHeight(false);
+        $this.height(wholeVisibleFrameHeight);
+      });
+      $participantAreaItem.scrollTop(0);
+      if (!$listButton.hasClass('full-list-area__btn--hide-full-list')) {
+        $participantAreaItem
+        .removeAttr('style');
       }
     }
   });
+  /*
+    ------------------------------
+  */
 
-  // Организация переключения вывода на экран списков групп участников:
+  /*
+    Организация переключения вывода на экран списков групп участников:
+  */
 
   let $showGroupBtn = $('.show-group-area .show-group-btn'),
   $teachersDataArea = $('.frame-area .main-data-area--teachers'),
@@ -257,27 +341,4 @@
     console.log($frameElement.scrollTop(), restHeight);
     });
   }
-
-  // Вывод на экран списков победителей по группам участников:
-  let $openSectionBtn, openSectionBtnTxt, $participantGroup;
-
-  $openSectionBtn = $('.management-area .open-section-btn'),
-  openSectionBtnTxt = $openSectionBtn.text(),
-  $participantGroup = $('.participant-area .participant-area__item').not(':nth-of-type(2)');
-  console.log($participantGroup);
-
-  $openSectionBtn
-  .on('click', function(event) {
-    $this = $(this);
-    console.log($this.text());
-    if (!$this.hasClass('open-section-btn--active') && event.target) {
-      $openSectionBtn.removeClass('open-section-btn--active');
-      $this.addClass('open-section-btn--active');
-    } else {
-      return false;
-    }
-  });
-
-
-
 })(jQuery);
